@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "Container database",
+            "driver": "PostgreSQL",
+            "previewLimit": 50,
+            "server": "db",
+            "port": 5432,
+            "database": "app",
+            "username": "app_user",
+            "password": "app_password"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "db",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "restaurant_reviews",
+            "username": "app_user",
+            "name": "Restaurant Reviews",
+            "password": "app_password"
+        }
+    ]
+}
